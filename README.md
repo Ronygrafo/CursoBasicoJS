@@ -1,2 +1,2 @@
 # CursoBasicoJS
-JavaScript Curso Bascio de Platzi
+JavaScript Curso Basico de Platzi, RETO: PIEDRA PAPEL O TIJERA
