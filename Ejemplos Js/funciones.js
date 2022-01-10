@@ -1,4 +1,4 @@
-/* DECLARARIVAS */
+/* DECLARATIVAS */
 
 function primeraFuncion() {
     return 3;

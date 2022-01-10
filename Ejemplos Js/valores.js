@@ -16,7 +16,6 @@ null
 undefined /* tratar de evitar */
 
 
-
 /* *** NO PRIMITIVOS, TIPO OBJETOS  */
 
 [1,2,3]

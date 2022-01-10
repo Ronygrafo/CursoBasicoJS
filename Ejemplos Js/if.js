@@ -6,7 +6,6 @@ console.log("Hola");
     console.log("Adios");
 }
 
-
 /* Ejemplo 3 IF */
 
 var edad = 18;

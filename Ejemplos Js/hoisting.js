@@ -7,7 +7,6 @@ miNombre = "Rony";
 /* LLAMAR VARIABLES SIN HABERLAS DECLARADO */
 
 
-
 /* HOISTING EN FUNCIONES */
 
 hey();
