@@ -17,5 +17,3 @@ if (player == cpu) {
     resultado = true
 } else { resultado = false}
 /* DE LO CONTRARIO, PLAYER PIERDE */
-
-mensaje
