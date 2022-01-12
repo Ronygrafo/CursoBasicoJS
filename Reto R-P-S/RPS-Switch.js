@@ -1,28 +1,20 @@
-var resultado;
-var mensaje = resultado ? "Gana Player 1" : "Gana CPU";
+var player = "Piedra";
+var cpu = "Tijeras";
 
-var player;
-var cpu;
-
-/* SI PLAYER NO GANA O EMPATA, PIERDE */
-switch (player, cpu){
-    case player = cpu:
+/* VALIDAR EL STRING GENERADO */
+switch (player + cpu){
+    case "PiedraPiedra":
+    case "TijerasTijeras":
+    case "PapelPapel":
         console.log("Empate")
         break;
-    case "Tijeras", "Papel":
-        resultado = true
-        console.log(mensaje)
+    case "PiedraTijeras":
+    case "TijerasPapel":
+    case "PapelPiedra":
+        console.log("Ganas")
         break;
-    case "Papel", "Piedra":
-        resultado = true
-        console.log(mensaje)
-        break;
-    case "Piedra", "Tijeras":
-        resultado = true
-        console.log(mensaje)
-        break;
+/* SI NO GANA O EMPATA, DEFINITIVAMENTE PIERDE */
     default:
-        resultado = false
-        console.log(mensaje)
+        console.log("Pierdes")
         break;
 }
